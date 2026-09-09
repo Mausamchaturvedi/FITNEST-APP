@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0F0F0F">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/ic_progress_pg"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="30dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnWeightProgress"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Weight Progress"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/btn_gradient"
+            app:backgroundTint="@null"
+            app:cornerRadius="30dp"
+            android:elevation="8dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnWorkoutProgress"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Workout Progress"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/btn_gradient"
+            app:backgroundTint="@null"
+            app:cornerRadius="30dp"
+            android:elevation="8dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnDietProgress"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Diet Progress"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/btn_gradient"
+            app:backgroundTint="@null"
+            app:cornerRadius="30dp"
+            android:elevation="8dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnAddWeight"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Add Your Weight"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_gradient"
+            app:backgroundTint="@null"
+            app:cornerRadius="30dp"
+            android:elevation="8dp"/>
+
+    </LinearLayout>
+</ScrollView>

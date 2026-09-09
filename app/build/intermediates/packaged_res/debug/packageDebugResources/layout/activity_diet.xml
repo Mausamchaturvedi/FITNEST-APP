@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0F0F0F">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/ic_diet"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="30dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnWeightGain"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Weight Gain"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/btn_gradient"
+            app:backgroundTint="@null"
+            app:cornerRadius="30dp"
+            android:elevation="8dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnWeightLoss"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Weight Loss"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/btn_gradient"
+            app:backgroundTint="@null"
+            app:cornerRadius="30dp"
+            android:elevation="8dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnMaintenance"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Maintenance"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/btn_gradient"
+            app:backgroundTint="@null"
+            app:cornerRadius="30dp"
+            android:elevation="8dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnGetPlan"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Get My Diet Plan"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_gradient"
+            app:backgroundTint="@null"
+            app:cornerRadius="30dp"
+            android:elevation="8dp"/>
+
+    </LinearLayout>
+</ScrollView>
