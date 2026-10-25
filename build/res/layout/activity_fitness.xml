@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0F0F0F">
+
+    <!-- TOP TOOLBAR -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9C6BFF"
+        android:title="FIT-NEST"
+        android:titleTextColor="#FFFFFF"
+        android:elevation="6dp"/>
+
+    <!-- Scroll Content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/ic_fitness"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="30dp"/>
+
+            <!-- Chest -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnChest"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="Chest"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/btn_gradient"
+                app:backgroundTint="@null"
+                app:cornerRadius="30dp"
+                android:elevation="8dp"/>
+
+            <!-- Back -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnBack"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="Back"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/btn_gradient"
+                app:backgroundTint="@null"
+                app:cornerRadius="30dp"
+                android:elevation="8dp"/>
+
+            <!-- Shoulder -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnShoulder"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="Shoulder"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/btn_gradient"
+                app:backgroundTint="@null"
+                app:cornerRadius="30dp"
+                android:elevation="8dp"/>
+
+            <!-- Bicep -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnBicep"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="Bicep"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/btn_gradient"
+                app:backgroundTint="@null"
+                app:cornerRadius="30dp"
+                android:elevation="8dp"/>
+
+            <!-- Tricep -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnTricep"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="Tricep"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/btn_gradient"
+                app:backgroundTint="@null"
+                app:cornerRadius="30dp"
+                android:elevation="8dp"/>
+
+            <!-- Legs -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnLegs"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="Legs"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/btn_gradient"
+                app:backgroundTint="@null"
+                app:cornerRadius="30dp"
+                android:elevation="8dp"/>
+
+            <!-- Health Guard -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnHealthGuard"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="Health Safety Check"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/btn_gradient"
+                app:backgroundTint="@null"
+                app:cornerRadius="30dp"
+                android:elevation="8dp"/>
+
+            <!-- Reminder -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnfit"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="Set Reminder For Workout"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_gradient"
+                app:backgroundTint="@null"
+                app:cornerRadius="30dp"
+                android:elevation="8dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
